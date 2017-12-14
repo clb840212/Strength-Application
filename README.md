@@ -1,12 +1,12 @@
 # README
-[![Build Status](https://codeship.com/projects/c37cb830-bb59-0135-37fd-46dcf572bfca/status?branch=master)
+[![Build Status](https://codeship.com/projects/49631fe0-c2a0-0135-a25e-12d2621e85fc/status?branch=master)
 
-[![Code Climate](https://codeclimate.com/github/AlanLeePhilly/streaming-guide/badges/gpa.svg)](https://codeclimate.com/github/AlanLeePhilly/streaming-guide)
+[![Code Climate](https://codeclimate.com/github/clb840212/strength-app/badges/gpa.svg)](https://codeclimate.com/github/clb840212/strength-app)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 
-[![Coverage Status](https://coveralls.io/repos/github/AlanLeePhilly/streaming-guide/badge.svg?branch=&service=github)](https://coveralls.io/github/AlanLeePhilly/streaming-guide?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/clb840212/strength-app/badge.svg?branch=&service=github)](https://coveralls.io/github/clb840212/strength-app?branch=master)
 
 
 * Ruby version 2.3.3
@@ -43,7 +43,3 @@
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
-
-* testing testing one two three...four
