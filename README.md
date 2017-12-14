@@ -1,9 +1,9 @@
 # README
-[![Build Status](https://codeship.com/projects/49631fe0-c2a0-0135-a25e-12d2621e85fc/status?branch=master)
+[![Build Status](https://codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)
 
-[![Code Climate](https://codeclimate.com/github/clb840212/Strength-Application/badges/gpa.svg)](https://codeclimate.com/github/clb840212/Strength-Application)
+[ ![Codeship Status for clb840212/Strength-Application](https://app.codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)](https://app.codeship.com/projects/260653)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) -->
 
 
 [![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application/badge.svg?branch=&service=github)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
