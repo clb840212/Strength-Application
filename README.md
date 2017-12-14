@@ -1,12 +1,12 @@
 # README
 [![Build Status](https://codeship.com/projects/49631fe0-c2a0-0135-a25e-12d2621e85fc/status?branch=master)
 
-[![Code Climate](https://codeclimate.com/github/clb840212/strength-app/badges/gpa.svg)](https://codeclimate.com/github/clb840212/strength-app)
+[![Code Climate](https://codeclimate.com/github/clb840212/strength-application/badges/gpa.svg)](https://codeclimate.com/github/clb840212/strength-application)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 
-[![Coverage Status](https://coveralls.io/repos/github/clb840212/strength-app/badge.svg?branch=&service=github)](https://coveralls.io/github/clb840212/strength-app?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/clb840212/strength-application/badge.svg?branch=&service=github)](https://coveralls.io/github/clb840212/strength-application?branch=master)
 
 
 * Ruby version 2.3.3
