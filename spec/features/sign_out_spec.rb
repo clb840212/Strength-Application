@@ -16,6 +16,6 @@ feature 'sign out' ,%{
     click_button 'Sign In'
     click_link 'Sign Out'
 
-    expect(page).to have_content("Signed out successfully")
+    expect(page).to have_content('Come Back Soon')
   end
 end
