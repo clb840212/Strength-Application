@@ -1,8 +1,10 @@
 source 'https://rubygems.org/'
-
-gem 'rails', '~> 5.1.2'
+gem 'jquery-rails'
+gem 'rails'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
+gem 'devise'
+gem 'simple_form'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 group :development do
@@ -19,6 +21,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'shoulda'
   gem 'valid_attribute'
+  gem 'rails-controller-testing'
 end
 
 group :production do

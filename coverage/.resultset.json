@@ -1,0 +1,31 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/christinabeauregard/strength/strength_app/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/helpers/application_helper.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1513261404
+  }
+}
