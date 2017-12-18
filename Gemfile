@@ -15,6 +15,7 @@ end
 
 group :development, :test do
   gem 'capybara'
+  gem 'coveralls', require: false
   gem 'factory_bot_rails'
   gem 'launchy', require: false
   gem 'pry-rails'

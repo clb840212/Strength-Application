@@ -1,13 +1,37 @@
 # README
+[![Build Status](https://codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[ ![Codeship Status](https://app.codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)](https://app.codeship.com/projects/260653)
 
-Things you may want to cover:
+[![Maintainability](https://api.codeclimate.com/v1/badges/0a8a40a7f17928b720be/maintainability)](https://codeclimate.com/github/clb840212/Strength-Application/maintainability)
 
-* Ruby version
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0a8a40a7f17928b720be/test_coverage)](https://codeclimate.com/github/clb840212/Strength-Application/test_coverage)
+
+[![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application/badge.svg?branch=master)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
+
+
+* Ruby version 2.3.3
 
 * System dependencies
+    capybara
+    factory_bot_rails
+    jquery-rails
+    launchy
+    listen (> 3.0.5)
+    pg (> 0.18)
+    pry-rails
+    puma (> 3.0)
+    rails (> 5.1.3)
+    rails_12factor
+    rspec-rails (> 3.5)
+    sass-rails (> 5.0)
+    shoulda
+    shoulda-matchers
+    spring
+    spring-watcher-listen (> 2.0.0)
+    tzinfo-data
+    uglifier (>= 1.3.0)
+    valid_attribute
 
 * Configuration
 
@@ -20,5 +44,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
