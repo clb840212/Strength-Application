@@ -7,7 +7,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application/badge.svg?branch=master)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
 
 [![Code Climate](https://codeclimate.com/github/clb840212/Strength-Application/badges/gpa.svg)](https://codeclimate.com/github/clb840212/Strength-Application)
-[![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application>/badge.svg?branch=master)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application/badge.svg?branch=master)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
 
 * Ruby version 2.3.3
 
