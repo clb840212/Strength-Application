@@ -1,6 +1,5 @@
 {
-  "name": "stength_app",
-  "private": true,
+  "name": "Stength_Application",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
