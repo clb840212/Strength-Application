@@ -1,14 +1,10 @@
 # README
-[![Build Status](https://codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)
 
 [ ![Codeship Status](https://app.codeship.com/projects/d9094510-c30c-0135-a25e-12d2621e85fc/status?branch=master)](https://app.codeship.com/projects/260653)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/0a8a40a7f17928b720be/maintainability)](https://codeclimate.com/github/clb840212/Strength-Application/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/0a8a40a7f17928b720be/test_coverage)](https://codeclimate.com/github/clb840212/Strength-Application/test_coverage)
-
 [![Coverage Status](https://coveralls.io/repos/github/clb840212/Strength-Application/badge.svg?branch=master)](https://coveralls.io/github/clb840212/Strength-Application?branch=master)
-
 
 * Ruby version 2.3.3
 
