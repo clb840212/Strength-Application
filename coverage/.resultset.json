@@ -1,13 +1,36 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/christinabeauregard/strength/strength_app/app/mailers/application_mailer.rb": [
+      "/Users/christinabeauregard/strength/strength_app/app/models/user.rb": [
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
         0,
-        0,
-        0,
-        0
+        null,
+        null
       ],
       "/Users/christinabeauregard/strength/strength_app/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/mailers/application_mailer.rb": [
+        0,
         0,
         0,
         0
@@ -19,13 +42,39 @@
       "/Users/christinabeauregard/strength/strength_app/app/controllers/application_controller.rb": [
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
-      "/Users/christinabeauregard/strength/strength_app/app/helpers/application_helper.rb": [
+      "/Users/christinabeauregard/strength/strength_app/app/controllers/static_pages_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0
       ]
     },
-    "timestamp": 1513261404
+    "timestamp": 1513633821
   }
 }

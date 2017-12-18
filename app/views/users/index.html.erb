@@ -1,0 +1,10 @@
+<h1>Add or Delete Users</h1>
+<% @users.each do |user| %>
+<ul>
+  <li>
+    <%= user.user_name %>
+    <%= link_to "Delete", user, :method => 'delete' %>
+  </li>
+</ul>
+<span><%= button_to 'Back to Home', user_session_path, class: "back" %></p>
+<% end %>

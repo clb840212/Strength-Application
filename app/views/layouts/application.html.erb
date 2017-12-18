@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>StengthApp</title>
+    <title>Strength_App</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Heebo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Nunito:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Oxygen:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Kanit:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
   </head>
 
   <body>
-    <nav>
-      <div>
-        <%= link_to 'Sign In', new_user_session_path %> </li>
-        <%= link_to 'Sign Up', new_user_registration_path %></li>
+    <div class="top-bar flex-title">
+      <div class="title-main"></div>
+      <% if current_user %>
         <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
-      </div>
-    </nav>
-    <p class="notice"> <%= notice %></p>
-    <p class="alert"> <%= alert %></p>
-    <!-- <% flash.each do |key, value| %>
+      <% else %>
+        <div class="title-note">
+          <%= link_to "Sign In", new_user_session_path %>
+          <%= link_to "Sign Up", new_user_registration_path %>
+        </div>
+      <% end %>
+    </div>
+    <% flash.each do |key, value| %>
       <p class='flash-alert'> <%= value %> </p>
-    <%end%> -->
-    <%= yield %>
+    <%end%>
+    <div class='grid-container'>
+      <%= yield %>
+    </div>
   </body>
 </html>
