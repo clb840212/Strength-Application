@@ -31,10 +31,20 @@
     <%= f.password_field :current_password, autocomplete: "off" %>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Update" %>
+<h2>Add Profile Photo</h2>
+
+  <div class="field">
+    <%= f.label :profile_photo, "Profile Photo" %><br />
+    <%= f.file_field :profile_photo %>
+    <%= f.hidden_field :profile_photo_cache %>
   </div>
-<% end %>
+
+  <div class="actions"> <br>
+    <%= f.submit "Update" %>
+    <% f.submit CarrierWave.clean_cached_files! %>
+  </div>
+
+  <% end %>
 
 <h3>Cancel my account</h3>
 
