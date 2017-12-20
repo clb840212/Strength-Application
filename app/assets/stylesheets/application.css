@@ -21,15 +21,3 @@
    padding-bottom: 30px;
 
  }
-
- navbar {
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   padding: 5px;
-   margin: 10px;
-   float: right;
- }
- navbar {
-   padding: 0px 50px 5px 5px;
-   color: #329ea2;
