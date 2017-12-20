@@ -9,6 +9,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'simple_form'
 gem 'dotenv-rails'
 gem 'uglifier', '>= 1.3.0'
+gem 'httparty'
 
 group :development do
   gem 'listen', '~> 3.0.5'

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   background: url("dumbbell.jpg");
+   background-repeat: no-repeat;
+   background-size: 1600px;
+   color: #a64dff;
+   padding-bottom: 30px;
+
+ }
