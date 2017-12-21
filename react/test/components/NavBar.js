@@ -23,7 +23,7 @@ describe('NavBar', () => {
   });
 
   it('should render an h1 tag with the title property value', () => {
-    expect(wrapper.find('h1').text()).toBe('#Get Jacked');
+    expect(wrapper.find('h1').text()).toBe('#Get Fit');
   });
 
   it('should render an link tag with the title property value', () => {
