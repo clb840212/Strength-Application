@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Router, browserHistory, Route, IndexRoute } from 'react-router';
 import NavBar from './components/NavBar';
-import TestContainer from './containers/TestContainer';
+import ExercisesContainer from './containers/ExercisesContainer';
+import ExerciseShowContainer from './containers/ExerciseShowContainer';
 
 class App extends Component {
   constructor(props){
@@ -15,7 +16,9 @@ class App extends Component {
     return(
       <Router history={browserHistory}>
         <Route path='/' component={NavBar} >
-          <IndexRoute component={TestContainer} />
+          <IndexRoute component={ExercisesContainer} />
+          <Route path='exercises' component={ExercisesContainer} />
+          <Route path='exercises/:id' component={ExerciseShowContainer} />
         </Route>
       </Router>
     )

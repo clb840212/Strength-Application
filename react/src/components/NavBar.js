@@ -7,7 +7,7 @@ const NavBar = props => {
     <div className="row">
       <BackButton />
       <Link to='/'> HOME </Link>
-      <h1 className="page-title">Let's Get Jacked!</h1>
+      <h1 className="page-title">#Get Fit</h1>
       { props.children }
     </div>
   )

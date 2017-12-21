@@ -24,8 +24,8 @@
         null
       ],
       "/Users/christinabeauregard/strength/strength_app/app/uploaders/profile_photo_uploader.rb": [
-        1,
         null,
+        1,
         null,
         null,
         null,
@@ -78,12 +78,21 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/christinabeauregard/strength/strength_app/app/helpers/application_helper.rb": [
         null,
         1,
+        null
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/models/exercise.rb": [
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/christinabeauregard/strength/strength_app/app/controllers/application_controller.rb": [
@@ -130,6 +139,21 @@
         0,
         0
       ],
+      "/Users/christinabeauregard/strength/strength_app/app/controllers/exercises_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/christinabeauregard/strength/strength_app/app/controllers/users_controller.rb": [
         0,
         0,
@@ -158,9 +182,25 @@
         0,
         0,
         0,
+        0,
+        0
+      ],
+      "/Users/christinabeauregard/strength/strength_app/app/controllers/api/v1/exercises_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ]
     },
-    "timestamp": 1513702002
+    "timestamp": 1513889445
   }
 }
