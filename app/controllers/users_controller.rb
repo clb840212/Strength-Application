@@ -1,5 +1,6 @@
 # controller
 class UsersController < ApplicationController
+  before_action :authenticate_user!
   before_action :authorize_user, except: [:show]
 
   def index
@@ -7,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find(current_user.id)
   end
 
   def destroy
