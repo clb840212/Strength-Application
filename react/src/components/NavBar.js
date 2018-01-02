@@ -7,7 +7,7 @@ const NavBar = props => {
     <div className="row">
       <BackButton />
       <Link to='/'> HOME </Link>
-      <h1 className='grid-x align-center title'>#Get Fit</h1>
+      <h1 className='grid-x align-center title'></h1>
       { props.children }
     </div>
   )

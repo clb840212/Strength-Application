@@ -1,0 +1,11 @@
+<div class="navbar">
+  <div class="grid-x align-center title">#Get Fit</div>
+  <% if current_user %>
+    <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+  <% else %>
+    <div class="title-note">
+      <%= link_to "Sign In", new_user_session_path %>
+      <%= link_to "Sign Up", new_user_registration_path %>
+    </div>
+  <% end %>
+</div>
