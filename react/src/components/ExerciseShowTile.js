@@ -27,8 +27,9 @@ if (props.description) {
     <div>
       <h1> {props.name}</h1>
       <p> Category: {props.category}</p>
-       <p> Description: {description}
-      </p>
+       <p> Description: {description}</p>
+
+      
     </div>
   )
 }
