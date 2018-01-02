@@ -16,6 +16,9 @@
 
 
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
  body {
    background: url("dumbbell.jpg");
    background-repeat: no-repeat;
@@ -64,4 +67,8 @@
    color: white;
    background-image: url('http://www.alteredphysique.com/wp-content/gallery/supersized-slides/backgroundsized.png')
 
+ }
+ .control-label.string.optional {
+   color: #63afdd;
+   font-size: 15px;
  }
