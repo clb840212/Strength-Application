@@ -13,14 +13,14 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
- 
+
 
  */
  body {
    background: url("dumbbell.jpg");
    background-repeat: no-repeat;
    background-size: 1600px;
-   color: #a64dff;
+   color: #beb6c6;
    padding-bottom: 30px;
 
  }
