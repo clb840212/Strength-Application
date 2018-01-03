@@ -29,8 +29,14 @@
  }
  button {
    color: white;
-   background-color: #666666;
+   background-color: #63afdd;
 
+ }
+ .backButton {
+   position: fixed;
+   bottom: 10%;
+   right: 5%;
+   background-color: #63afdd;
  }
  .profile_photo {
    height: 100px;
@@ -72,3 +78,15 @@
    color: #63afdd;
    font-size: 15px;
  }
+
+.callout {
+  height: 70px;
+  width: 200px;
+}
+.logins {
+  position: fixed;
+  right: 0px;
+  width: 200px;
+  padding: 10px;
+  top: 5px;
+}
