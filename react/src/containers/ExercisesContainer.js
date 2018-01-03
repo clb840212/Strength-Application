@@ -57,6 +57,7 @@ class ExercisesContainer extends Component {
         />
       )
     });
+  
 
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(exercises.length / exercisesPerPage); i++) {

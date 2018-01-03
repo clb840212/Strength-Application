@@ -21,7 +21,8 @@ let description
 if (props.description) {
   description = props.description.replace(/<\/p>/g, "")
     .replace(/<p>/g,"").replace(/<ol>/g,"").replace(/<\/ol>/g,"")
-    .replace(/<li>/g,"").replace(/<\/li>/g,"")
+    .replace(/<li>/g,"").replace(/<\/li>/g,"").replace(/<ul>/g,"")
+    .replace(/<\/ul>/g,"").replace(/<em>/g,"").replace(/<\/em>/g,"")
 }
   return(
     <div>
@@ -29,7 +30,7 @@ if (props.description) {
       <p> Category: {props.category}</p>
        <p> Description: {description}</p>
 
-      
+
     </div>
   )
 }

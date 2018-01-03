@@ -1,5 +1,9 @@
 
-<%= @workout.date %>
-<%= @workout.workout %>
-<%= @workout.length %>
-<%= @workout.mood %>
+<h1><%= @workout.date %></h1>
+<h3><%= @workout.workout %></h3>
+<li><%= @workout.length %></li>
+<li><%= @workout.mood %></li>
+
+<%=link_to "Back", root_path  %>
+<%=link_to "Edit", edit_workout_path(@workout) %>
+<%=link_to "Delete", workout_path(@workout), method: :delete, data: { confirm: "Are you sure?"} %>
