@@ -15,18 +15,26 @@ u1 = User.create(
 
 
 
-exercises = HTTParty.get('https://wger.de/api/v2/exerciseinfo/?language=2&limit=500')
+# exercises = HTTParty.get('https://wger.de/api/v2/exerciseinfo/?language=2&limit=500')
+#
+# Exercise.destroy_all
 
-Exercise.destroy_all
+# exercises.parsed_response["results"].each do |exercise|
+#   Exercise.create(
+#     name: exercise['name'],
+#     category: exercise['category']['name'],
+#     equipment: exercise['equipment'],
+#     description: exercise['description'],
+#     muscles: exercise['muscles']
+#   )
+# end
+Exercise.create(
+name: 'hamstring curl',
+category: 'legs,lower body',
+equipment: 'hamstring machine',
+description: 'lay down lift legs',
+muscles: 'hamstring'
 
-exercises.parsed_response["results"].each do |exercise|
-  Exercise.create(
-    name: exercise['name'],
-    category: exercise['category']['name'],
-    equipment: exercise['equipment'],
-    description: exercise['description'],
-    muscles: exercise['muscles']
-  )
-end
+)
 #
 # exercise_images = HTTParty.get('https://wger.de/api/v2/exerciseimage/?is_main=True')
