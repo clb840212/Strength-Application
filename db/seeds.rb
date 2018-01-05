@@ -14,11 +14,11 @@ u1 = User.create(
 )
 
 
-
+#
 # exercises = HTTParty.get('https://wger.de/api/v2/exerciseinfo/?language=2&limit=500')
 #
 # Exercise.destroy_all
-
+#
 # exercises.parsed_response["results"].each do |exercise|
 #   Exercise.create(
 #     name: exercise['name'],
