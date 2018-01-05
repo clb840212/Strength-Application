@@ -5,7 +5,7 @@
       <% if current_user.profile_photo? %>
         <%=  link_to image_tag(current_user.profile_photo.url, class: "profile photo"),user_path(current_user.id) %>
         <% else %>
-          <%= image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoiWq8MqUo4d1JqenwFQ-1pPmAWgHYLYT9P-UWOgBupcDxWPTKfg", class: "avatar") %>
+          <%= link_to image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoiWq8MqUo4d1JqenwFQ-1pPmAWgHYLYT9P-UWOgBupcDxWPTKfg", class: "avatar"), user_path(current_user.id) %>
         <% end %>
     </div>
     <div class="workout-links">
