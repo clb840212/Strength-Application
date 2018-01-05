@@ -1,11 +1,24 @@
 <div class="navbar">
-  <div class="grid-x align-center title">#Get Fit</div>
-  <% if current_user %>
-    <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
-  <% else %>
-    <div class="title-note">
-      <%= link_to "Sign In", new_user_session_path %>
-      <%= link_to "Sign Up", new_user_registration_path %>
+  <h1 class="home-button"><%= link_to root_path do %> #Get Fit <% end %></h1>
+    <div class="profile-link">
+      <% if current_user %>
+      <% if current_user.profile_photo? %>
+        <%=  link_to image_tag(current_user.profile_photo.url, class: "profile photo"),user_path(current_user.id) %>
+        <% else %>
+          <%= image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoiWq8MqUo4d1JqenwFQ-1pPmAWgHYLYT9P-UWOgBupcDxWPTKfg", class: "avatar") %>
+        <% end %>
+    </div>
+    <div class="workout-links">
+      <p><%=link_to "Add New Workout", new_workout_path %></p>
+      <p><%=link_to "Workout Log", workouts_path %></p>
+    </div>
+     <div class="logins">
+        <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+      <% else %>
+        <div class="title-note">
+          <%= link_to "Sign In", new_user_session_path %>
+          <%= link_to "Sign Up", new_user_registration_path %>
+        </div>
     </div>
   <% end %>
 </div>

@@ -6,7 +6,6 @@ const NavBar = props => {
   return(
     <div className="row">
       <BackButton />
-      <Link to='/'> HOME </Link>
       <h1 className='grid-x align-center title'></h1>
       { props.children }
     </div>

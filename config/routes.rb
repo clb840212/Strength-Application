@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
   resources :users, only: [:show, :index, :destroy, :edit]
   resources :exercises, only: [:show, :index]
+  resources :workouts, only: [:show, :index, :destroy, :edit, :update , :create, :new]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   namespace :api do

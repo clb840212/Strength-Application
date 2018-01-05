@@ -6,11 +6,12 @@ gem 'rails'
 gem 'devise'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
-gem 'simple_form'
+gem 'simple_form', '~> 3.5'
 gem 'dotenv-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'httparty'
 gem 'zurb-foundation'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 
 group :development do

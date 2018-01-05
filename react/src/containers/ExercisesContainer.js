@@ -8,7 +8,7 @@ class ExercisesContainer extends Component {
     this.state = {
       exercises: [],
       currentPage: 1,
-      exercisesPerPage: 15
+      exercisesPerPage: 16
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -57,6 +57,7 @@ class ExercisesContainer extends Component {
         />
       )
     });
+  
 
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(exercises.length / exercisesPerPage); i++) {

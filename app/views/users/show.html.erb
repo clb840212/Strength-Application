@@ -1,5 +1,9 @@
 <h1>Hey, <%=current_user.first_name%>!</h1>
-
+<% if @user.profile_photo %>
+  <img class="profile_photo" src="<%= @user.profile_photo %>"/>
+<% else %>
+  <%= image_tag("/assets/default_pic.jpeg", class:'profile_photo')%>
+<%end%>
 <p>Username: <%= current_user.user_name %></p>
 <p>Member: <%= current_user.first_name %> <%= current_user.last_name %></p>
 <p>Email: <%= current_user.email %></p>
@@ -8,9 +12,3 @@
 <button><%= link_to "Edit your profile", edit_user_registration_path %> <br></button>
 <p><%= button_to "Cancel my account", destroy_user_session_path, data: { confirm: "Are you sure?" }, method: :delete %></p>
 <% end%>
-
-<% if @user.profile_photo %>
-  <img class="profile_photo" src="<%= @user.profile_photo %>"/>
-<% else %>
-  <%= image_tag("/assets/default_pic.jpeg", class:'profile_photo')%>
-<%end%>

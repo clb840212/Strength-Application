@@ -16,6 +16,9 @@
 
 
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
  body {
    background: url("dumbbell.jpg");
    background-repeat: no-repeat;
@@ -26,28 +29,48 @@
  }
  button {
    color: white;
-   background-color: #666666;
+   background-color: #63afdd;
 
+ }
+ .backButton {
+   position: fixed;
+   bottom: 3%;
+   right: 3%;
+   background-color: #7f8082;
+   color: black;
+   border: 2px solid #5a81ce;
+   border-radius: 15px;
+   font-size: 12px;
  }
  .profile_photo {
    height: 100px;
    border: 2px solid black;
    border-radius: 30px;
  }
+ .profile.photo {
+   height: 60px;
+   border: 2px solid black;
+   border-radius: 30px;
+ }
  .index-text {
    color: #d0cfd1;
    text-align: center;
+   font-family: "Impact", serif;
+   font-size: 15px;
  }
  .button.pager {
    background-color: #d0cfd1;
    color: black;
    padding: 10px;
    text-align: center;
-   border: 2px solid #322172;
+   border: 2px solid #5a81ce;
    border-radius: 12px;
  }
  .title {
    font: bold ;
+   color: #7f8082;
+   font-size: 80px;
+   font-family: "Impact", serif;
  }
  .exercise-tile {
    margin: auto;
@@ -63,3 +86,45 @@
    background-image: url('http://www.alteredphysique.com/wp-content/gallery/supersized-slides/backgroundsized.png')
 
  }
+ .control-label.string.optional {
+   color: #63afdd;
+   font-size: 15px;
+ }
+
+.callout {
+  height: 70px;
+  width: 200px;
+}
+.logins {
+  position: fixed;
+  right: 0px;
+  width: 200px;
+  padding: 10px;
+  top: 50px;
+  font-size: 20px;
+}
+.home-button {
+  font: bold ;
+  color: #7f8082;
+  font-size: 40px;
+  font-family: "Impact", serif;
+}
+.profile-link {
+  width: 200px;
+  padding: 10px;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+label {
+  color: #beb6c6;
+  font-size: 15px;
+}
+input {
+  color: #beb6c6;
+
+}
+.control-label.datetime.optional {
+  color: #63afdd;
+  font-size: 15px;
+}
